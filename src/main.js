@@ -1,5 +1,4 @@
 import Vue from 'vue';
-import App from './App';
 
 import VueOnsen from 'vue-onsenui';
 import ons from 'onsenui';
@@ -7,12 +6,32 @@ import ons from 'onsenui';
 import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
 
-import { MainPage, SecondPage } from './components';
+import {
+  App,
+  Tabbar,
+  Home,
+  PullHook,
+  Splitter,
+  Fab,
+  SpeedDial,
+  Dialogs,
+  Forms,
+  Animations,
+  AnimationsChild
+} from './components';
 
 Vue.use(VueOnsen, {
   components: {
-    MainPage,
-    SecondPage
+    Tabbar,
+    Home,
+    PullHook,
+    Splitter,
+    Fab,
+    SpeedDial,
+    Dialogs,
+    Forms,
+    Animations,
+    AnimationsChild
   }
 });
 
